@@ -19,6 +19,11 @@
     color: #727272;
     /*font-size: 1rem;*/
 }
+.section-title{
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
 
 /* Header Styles */
 header{
@@ -47,14 +52,7 @@ nav li a {
     color: #424242;
 }
 
-.nav-title{
-    color: #131313;
-    text-align: center;
-    font-size: 2.8rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
+
 
 /*Banner Styles*/
 .banner-content{
@@ -107,6 +105,31 @@ main{
     font-weight: 700;
 }
 
+/* Facts Section */
+.facts-card-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.facts-card-container .card{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 30px;
+}
+.facts-card-container .card-stats{
+    font-size: 2.8rem;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.facts-card-container .card-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 5px;
+}
 
 
 

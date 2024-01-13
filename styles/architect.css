@@ -201,6 +201,25 @@ main{
     filter: grayscale(0%);
 }
 
+
+/* Footer Style */
+footer{
+    border-radius: 8px;
+    background: #FFF4E7;
+    max-width: 1440px;
+    margin: 70px auto;
+}
+footer .footer-des{
+    color: #424242;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 40px 410px;
+}
+
+
+
+
 /* Responsive mobile*/
 @media screen and (max-width: 576px) {
     header{
@@ -236,6 +255,10 @@ main{
     .facts-card-container{
         gap: 20px;
     }
+    footer .footer-des{
+        padding: 20px 100px;
+    }
+
 }
 
 /* Responsive tablet*/
@@ -249,6 +272,9 @@ main{
     }
     header{
         padding: 50px;
+    }
+    footer .footer-des{
+        padding: 30px 110px;
     }
 }
 
